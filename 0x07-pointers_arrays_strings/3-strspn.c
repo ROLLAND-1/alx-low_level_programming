@@ -17,8 +17,8 @@ unsigned int _strspn(char *s, char *accept)
 		{
 			if (*(s + i) == *(accept + f))
 			{
-														bool = 0;
-														break;
+				bool = 0;
+				break;
 			}
 		}
 		if (bool == 1)
